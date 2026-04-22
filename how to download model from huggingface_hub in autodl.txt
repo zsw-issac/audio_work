@@ -1,0 +1,3 @@
+RERANK_MODEL_NAME = "BAAI/bge-reranker-base"   例如这个是模型名称
+1.  export HF_ENDPOINT=https://hf-mirror.com
+2.  hf download BAAI/bge-reranker-base --local-dir ./bge-reranker-base 可以显式指定模型下载地址,也可以直接在autodl_tmp下
